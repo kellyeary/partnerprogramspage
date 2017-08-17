@@ -92,6 +92,10 @@ footer p {
   font-weight: 300;
 }
 
+li{
+  margin-bottom: 5px;
+}
+
 /* BUTTON */
 
 .button, button, input[type="submit"], input[type="reset"], input[type="button"] {
@@ -274,15 +278,15 @@ h5+p {
   text-shadow: 1px 1px 10px #000000;
 }
 
-.brands {
-  margin: auto;
-  max-width: 60%;
-}
 
 footer p {
-  margin-top: 25px;
+  margin-top: 15px;
 }
 
+.wis{
+  max-width: 90%;
+  margin: auto;
+}
 
 /*MISC*/
 
@@ -312,10 +316,15 @@ footer p {
   margin-bottom: 55px;
 }
 
+.weHelp{
+  padding-left: 10px;
+}
+
 .img-circle{
   vertical-align: text-top;
   margin-top: 10px;
   margin-left: 25%;
+  max-width: 95%;
 }
 
 /* MEDIA */
@@ -333,9 +342,22 @@ footer p {
     margin-left: 3%;
     margin-right: 0;
   }
-
-
 }
+
+@media (min-width: 1300px){
+  .wis{
+    max-width: 50%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px){
+  .wis{
+    max-width: 40%;
+    margin: auto;
+  }
+}
+
 
 /*div {
   border: 1px solid #fff;
